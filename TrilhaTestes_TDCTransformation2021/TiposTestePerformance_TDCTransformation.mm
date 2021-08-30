@@ -1,0 +1,329 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1629062056274" ID="ID_1362443296" MODIFIED="1629062830030" TEXT="Tipos de Teste de Performance">
+<node CREATED="1621648936324" ID="ID_322772974" MODIFIED="1630293324868" POSITION="right" TEXT="Principios de Testes de Performance">
+<icon BUILTIN="pencil"/>
+<node CREATED="1629063245596" ID="ID_1309485973" MODIFIED="1630293372574" TEXT="Base">
+<node CREATED="1629063256482" ID="ID_1511088047" MODIFIED="1629901966219" TEXT="Quantidade de Usu&#xe1;rios Simultaneos">
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male1"/>
+<icon BUILTIN="male1"/>
+<icon BUILTIN="family"/>
+<node CREATED="1629677698258" ID="ID_225991124" MODIFIED="1629677702603" TEXT="Concorr&#xea;ncia"/>
+</node>
+<node CREATED="1629063268465" ID="ID_148063658" MODIFIED="1629901972452" TEXT="Tempo">
+<icon BUILTIN="hourglass"/>
+<icon BUILTIN="clock"/>
+<node CREATED="1629253936862" ID="ID_1157263745" MODIFIED="1629253941624" TEXT="Tempo de Resposta"/>
+<node CREATED="1629253953343" ID="ID_1775004331" MODIFIED="1629253959102" TEXT="Tempo de Processamento"/>
+</node>
+</node>
+<node CREATED="1629677715434" ID="ID_383801675" MODIFIED="1630293371096" TEXT="Responder ...">
+<node CREATED="1610408464971" ID="ID_98388189" MODIFIED="1621822090480" TEXT="Desempenho"/>
+<node CREATED="1610408497277" ID="ID_735761868" MODIFIED="1610408502928" TEXT="Confiabilidade"/>
+<node CREATED="1610408524269" ID="ID_435790342" MODIFIED="1610408529517" TEXT="Disponibilidade"/>
+<node CREATED="1629679845450" ID="ID_105401729" MODIFIED="1629679851499" TEXT="Escalabilidade"/>
+<node CREATED="1629677738807" ID="ID_1523704389" MODIFIED="1629769970194" TEXT="Capacidade"/>
+<node CREATED="1621648993125" FOLDED="true" ID="ID_752123398" MODIFIED="1630293392837" TEXT="Utiliza&#xe7;&#xe3;o de recursos">
+<node CREATED="1621649075394" ID="ID_569678041" MODIFIED="1621649085283" TEXT="Consumo de Mem&#xf3;ria"/>
+<node CREATED="1621649089122" ID="ID_1352538247" MODIFIED="1621649094747" TEXT="Consumo de CPU"/>
+<node CREATED="1629679891498" ID="ID_893521213" MODIFIED="1629679898388" TEXT="Espa&#xe7;o em Disco"/>
+</node>
+</node>
+<node CREATED="1621649347898" FOLDED="true" ID="ID_636273627" MODIFIED="1630293398528" TEXT="Testes alinhados &#xe0;s expectativas dos envolvidos">
+<node CREATED="1621649365802" ID="ID_1233843828" MODIFIED="1629861754142" TEXT="Entender">
+<node CREATED="1629062424269" ID="ID_989555883" MODIFIED="1629062428455" TEXT="Objetivo">
+<node CREATED="1629253547245" ID="ID_1240413772" MODIFIED="1629253558770" TEXT="Qual necessidade de performance ?"/>
+</node>
+<node CREATED="1629062440039" ID="ID_849762841" MODIFIED="1629062444287" TEXT="Contexto">
+<node CREATED="1621129076211" ID="ID_1181299401" MODIFIED="1621468702352" TEXT="Neg&#xf3;cio">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1629062843967" ID="ID_1775690477" MODIFIED="1629062847405" TEXT="T&#xe9;cnico"/>
+</node>
+<node CREATED="1621129095481" ID="ID_385955581" MODIFIED="1621468702352" TEXT="Riscos">
+<font NAME="SansSerif" SIZE="12"/>
+<node CREATED="1621129088434" ID="ID_1237779783" MODIFIED="1621468702352" TEXT="Criticidade">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1621649384458" ID="ID_20020336" MODIFIED="1629421216576" TEXT="Escopo"/>
+</node>
+<node CREATED="1621649403930" ID="ID_313995517" MODIFIED="1629898575029" TEXT="Estabelecer Cri&#xe9;rios de Aceite">
+<node CREATED="1621649421554" FOLDED="true" ID="ID_1344352239" MODIFIED="1629902266146" TEXT="M&#xe9;tricas">
+<node CREATED="1610408846331" ID="ID_502875180" MODIFIED="1629769118077" TEXT="Tempo de Resposta">
+<node CREATED="1621906770117" ID="ID_1102073156" MODIFIED="1621906990503" TEXT="Unidade de Tempo">
+<node CREATED="1610409796347" ID="ID_613177499" MODIFIED="1610409799289" TEXT="minutos"/>
+<node CREATED="1610409802075" ID="ID_95151911" MODIFIED="1610409805161" TEXT="segundos"/>
+<node CREATED="1610409807707" ID="ID_1392212805" MODIFIED="1610409811845" TEXT="milesegundos"/>
+</node>
+<node CREATED="1621906788060" ID="ID_1788691557" MODIFIED="1621906794877" TEXT="M&#xe9;dia do Tempo de Resposta"/>
+<node CREATED="1621906799964" ID="ID_89014809" MODIFIED="1629770722435" TEXT="Percentis">
+<node CREATED="1621906806836" ID="ID_1561567215" MODIFIED="1621906822887" TEXT="99%"/>
+<node CREATED="1621906812885" ID="ID_658351658" MODIFIED="1621906845357" TEXT="95%"/>
+<node CREATED="1621906825596" ID="ID_1064415948" MODIFIED="1621906841614" TEXT="90%"/>
+</node>
+<node CREATED="1621906852861" ID="ID_1083850409" MODIFIED="1621906861157" TEXT="M&#xed;nimo"/>
+<node CREATED="1621906864796" ID="ID_167832572" MODIFIED="1621906867917" TEXT="M&#xe1;ximo"/>
+</node>
+<node CREATED="1610408943712" ID="ID_359274501" MODIFIED="1629770723573" TEXT="Throughput">
+<node CREATED="1610409815790" ID="ID_1990574805" MODIFIED="1610409826699" TEXT="Quantidade de registros em uma Unidade de Tempo"/>
+<node CREATED="1621906908276" ID="ID_272536374" MODIFIED="1621906915333" TEXT="Transa&#xe7;&#xf5;es por Segundo">
+<node CREATED="1621906917980" ID="ID_23996703" MODIFIED="1621906919773" TEXT="TPS"/>
+</node>
+<node CREATED="1629769879671" ID="ID_1480334285" MODIFIED="1629770725395" TEXT="Diferen&#xe7;a - Threads x Througput">
+<node CREATED="1629769900759" ID="ID_921431767" MODIFIED="1629769905400" TEXT="1 Thread"/>
+<node CREATED="1629769908055" ID="ID_1564553969" MODIFIED="1629769922527" TEXT="Tempo Resposta 500 ms"/>
+<node CREATED="1629769928423" ID="ID_957333887" MODIFIED="1629769933135" TEXT="2 TPS"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1621649495050" FOLDED="true" ID="ID_1311323233" MODIFIED="1629902339993" TEXT="Ter Resultados">
+<node CREATED="1621649513081" ID="ID_1513672113" MODIFIED="1621649521019" TEXT="compreens&#xed;veis"/>
+<node CREATED="1629769796127" ID="ID_1224722510" MODIFIED="1629769804720" TEXT="Status de acordo com as expectativas dos stakeholders">
+<node CREATED="1629769808151" ID="ID_1781330908" MODIFIED="1629769814032" TEXT="Passou"/>
+<node CREATED="1629769817007" ID="ID_770783368" MODIFIED="1629769819543" TEXT="Falhou"/>
+<node CREATED="1629769822502" ID="ID_1890043164" MODIFIED="1629769825631" TEXT="Evid&#xea;ncias"/>
+</node>
+</node>
+<node CREATED="1621649444689" FOLDED="true" ID="ID_242357876" MODIFIED="1630293329198" TEXT="Ser reprodut&#xed;veis">
+<node CREATED="1629573469182" FOLDED="true" ID="ID_799179443" MODIFIED="1630293327425" TEXT="Massa de Dados">
+<node CREATED="1629573475087" ID="ID_573681649" MODIFIED="1629769860519" TEXT="Duplicidade">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1629573481802" ID="ID_1757812287" MODIFIED="1629769865262" TEXT="Configura&#xe7;&#xf5;es">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1629573495809" ID="ID_1630020468" MODIFIED="1629769863303" TEXT="Inconsist&#xea;ncia com Neg&#xf3;cio">
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1629062283816" ID="ID_1513381024" MODIFIED="1629902435168" POSITION="right" TEXT="Tipos de Teste de Performance">
+<arrowlink DESTINATION="ID_1513381024" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1668549129" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1513381024" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1668549129" SOURCE="ID_1513381024" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<icon BUILTIN="xmag"/>
+<node CREATED="1593355029754" FOLDED="true" ID="ID_1795840908" MODIFIED="1629902927306" TEXT="Carga ou Volume">
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<node CREATED="1593355061245" ID="ID_1977453672" MODIFIED="1621468702350" TEXT="Aumento de carga"/>
+<node CREATED="1629254262017" FOLDED="true" ID="ID_716410948" MODIFIED="1629902924770" TEXT="Exemplo">
+<node CREATED="1629254978524" ID="ID_922744188" MODIFIED="1629462197362" TEXT="Cen&#xe1;rio">
+<node CREATED="1629255019888" ID="ID_537386738" MODIFIED="1629683432744" TEXT="TDC vai lan&#xe7;ar uma promo&#xe7;&#xe3;o, n&#xe3;o ter&#xe1; muita divulga&#xe7;&#xe3;o, inicialmente, mas vai aumentar o fluxo de usu&#xe1;rios no site, normalmente temos 4 usu&#xe1;rios simultaneos a proje&#xe7;&#xe3;o &#xe9; de dobrar a quantidade de usu&#xe1;rios"/>
+</node>
+<node CREATED="1593355061245" ID="ID_910260472" MODIFIED="1629254995187" TEXT="Normal">
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<node CREATED="1603323768940" ID="ID_774395721" MODIFIED="1629683438451" TEXT="4 Usu&#xe1;rios"/>
+</node>
+<node CREATED="1602385775356" ID="ID_1698891577" MODIFIED="1603893307643" TEXT="Carga Maior">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+<node CREATED="1603323788003" ID="ID_1858232324" MODIFIED="1629683446046" TEXT="9 Usu&#xe1;rios"/>
+</node>
+</node>
+</node>
+<node CREATED="1593355041659" FOLDED="true" ID="ID_21687130" MODIFIED="1629903426411" TEXT="Capacidade">
+<icon BUILTIN="hourglass"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<node CREATED="1593355069092" ID="ID_1726757300" MODIFIED="1621468702350" TEXT="Aumento de carga"/>
+<node CREATED="1593355172743" ID="ID_1062205497" MODIFIED="1629768949353" TEXT="Determinado Tempo (Per&#xed;odo)">
+<node CREATED="1629254920678" ID="ID_469338733" MODIFIED="1629254924438" TEXT="Segundos"/>
+<node CREATED="1629254930396" ID="ID_577433206" MODIFIED="1629254937822" TEXT="Minutos"/>
+</node>
+<node CREATED="1603323849444" ID="ID_1235822676" MODIFIED="1629902945627" TEXT="Exemplo">
+<node CREATED="1629255108627" ID="ID_841302760" MODIFIED="1629805161518" TEXT="Cen&#xe1;rio">
+<node CREATED="1629255019888" ID="ID_1271916375" MODIFIED="1629768993944" TEXT="TDC vai lan&#xe7;ar uma promo&#xe7;&#xe3;o, ter&#xe1; forte divulga&#xe7;&#xe3;o nas m&#xed;dias, mas vai aumentar o fluxo de usu&#xe1;rios no site, normalmente temos 4 usu&#xe1;rios simultaneos a proje&#xe7;&#xe3;o &#xe9; de triplicar a quantidade de usu&#xe1;rios por per&#xed;odos mais longos, obtivemos dados de acessos espa&#xe7;ados"/>
+</node>
+<node CREATED="1603323993899" ID="ID_441681339" MODIFIED="1629805227636" TEXT="Ramp Up">
+<node CREATED="1602385775356" ID="ID_816822737" MODIFIED="1629560060310" TEXT="Step de 1 em 1 Thread">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+</node>
+<node CREATED="1603323895507" ID="ID_9360413" MODIFIED="1629592761882" TEXT="Total 30s">
+<icon BUILTIN="clock"/>
+<node CREATED="1603323781115" ID="ID_1819361096" MODIFIED="1629592838952" TEXT="Aumenta 1 Thread a cada 1,5s"/>
+<node CREATED="1629560090638" ID="ID_2162809" MODIFIED="1629855511271" TEXT="Carga m&#xe1;xima = 13 Threads"/>
+</node>
+</node>
+<node CREATED="1603323895507" ID="ID_107576062" MODIFIED="1629805440693" TEXT="60s">
+<icon BUILTIN="clock"/>
+<node CREATED="1602385775356" ID="ID_1652858553" MODIFIED="1603323820507" TEXT="Carga Maior">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+<node CREATED="1603323781115" ID="ID_1541546559" MODIFIED="1629863602091" TEXT="13 usu&#xe1;rios"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1593355047908" FOLDED="true" ID="ID_68192082" MODIFIED="1629903452339" TEXT="Stress">
+<icon BUILTIN="clanbomber"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="family"/>
+<node CREATED="1593355081238" ID="ID_297324614" MODIFIED="1621468702349" TEXT="Aumento de carga acima do limte/pico"/>
+<node CREATED="1593355234195" FOLDED="true" ID="ID_1429582847" MODIFIED="1629559878894" TEXT="Pior Cen&#xe1;rio (relacionado volume)">
+<node CREATED="1621649665257" ID="ID_1792035663" MODIFIED="1621649675857" TEXT="Disponibilidade"/>
+<node CREATED="1593355247326" ID="ID_1391928179" MODIFIED="1621468702349" TEXT="Resiliencia"/>
+<node CREATED="1593355259006" ID="ID_967519096" MODIFIED="1621468702349" TEXT="Recupera&#xe7;&#xe3;o"/>
+</node>
+<node CREATED="1603324013475" ID="ID_1227615835" MODIFIED="1629592674510" TEXT="Exemplo">
+<node CREATED="1629255108627" ID="ID_778654583" MODIFIED="1629559751889" TEXT="Cen&#xe1;rio">
+<node CREATED="1629255019888" ID="ID_1008723561" MODIFIED="1629683459420" TEXT="TDC vai lan&#xe7;ar uma promo&#xe7;&#xe3;o, ter&#xe1; forte divulga&#xe7;&#xe3;o nas m&#xed;dias, grupos  vai aumentar muito o fluxo de usu&#xe1;rios no site, principalmente em determinados hor&#xe1;rios. normalmente temos 4 usu&#xe1;rios simultaneos a proje&#xe7;&#xe3;o &#xe9; de pr&#xf3;ximo das 17h, quando faremos lives que a quantidade de usu&#xe1;rios aumente gradativamente por per&#xed;odos mais longos, usu&#xe1;rios interagindo a medida que s&#xe3;o divulgadas as trilhas na live"/>
+</node>
+<node CREATED="1603323993899" ID="ID_453060788" MODIFIED="1629559899579" TEXT="Ramp Up">
+<node CREATED="1603323895507" ID="ID_423199724" MODIFIED="1629560214719" TEXT="Total 60s">
+<icon BUILTIN="clock"/>
+<node CREATED="1602385775356" ID="ID_479932243" MODIFIED="1629560060310" TEXT="Step de 1 em 1 Thread">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+</node>
+<node CREATED="1603323781115" ID="ID_331953634" MODIFIED="1629560080520" TEXT="A cada 2s"/>
+<node CREATED="1629560090638" ID="ID_881486207" MODIFIED="1629770104570" TEXT="Carga m&#xe1;xima = 20 Threads"/>
+</node>
+</node>
+<node CREATED="1603323895507" ID="ID_41411081" MODIFIED="1629560248535" TEXT="120s">
+<icon BUILTIN="clock"/>
+<node CREATED="1602385775356" ID="ID_868144506" MODIFIED="1603324117792" TEXT="Carga Maior - Pico">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+<node CREATED="1603323781115" ID="ID_1611906749" MODIFIED="1629770108772" TEXT="20 Threads"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1621649787145" FOLDED="true" ID="ID_980952355" MODIFIED="1629903525980" TEXT="Pico">
+<icon BUILTIN="clanbomber"/>
+<icon BUILTIN="clanbomber"/>
+<icon BUILTIN="clanbomber"/>
+<node CREATED="1621649807753" ID="ID_1798155578" MODIFIED="1621649850834" TEXT="Avaliar comportamento do sistema ap&#xf3;s rajadas"/>
+<node CREATED="1621649854457" ID="ID_324460678" MODIFIED="1621649858265" TEXT="Estabilibidade"/>
+<node CREATED="1621649864129" ID="ID_1890771324" MODIFIED="1621649875586" TEXT="Dispon&#xed;bilidade"/>
+<node CREATED="1603324013475" ID="ID_702903833" MODIFIED="1629738332205" TEXT="Exemplo">
+<node CREATED="1629255108627" ID="ID_1162035071" MODIFIED="1629559751889" TEXT="Cen&#xe1;rio">
+<node CREATED="1629770156799" ID="ID_719407889" MODIFIED="1629856152003" TEXT="Promo&#xe7;&#xf5;es ingressos com tempo abertura estabelecido"/>
+<node CREATED="1629770178375" ID="ID_708032927" MODIFIED="1629770189865" TEXT="Vota&#xe7;&#xf5;es de Reality Show "/>
+</node>
+<node CREATED="1603323993899" ID="ID_1427217908" MODIFIED="1629770210928" TEXT="Picos">
+<node CREATED="1603323895507" ID="ID_721821975" MODIFIED="1629854022885" TEXT="30s">
+<icon BUILTIN="clock"/>
+<node CREATED="1602385775356" ID="ID_1380629444" MODIFIED="1629854030631" TEXT="Rajada">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+<node CREATED="1603323781115" ID="ID_685504383" MODIFIED="1629854076326" TEXT="40 Threads"/>
+</node>
+</node>
+<node CREATED="1603323895507" ID="ID_1495797162" MODIFIED="1629854065251" TEXT="Delay 30s">
+<icon BUILTIN="clock"/>
+</node>
+<node CREATED="1603323895507" ID="ID_1722062979" MODIFIED="1629854022885" TEXT="30s">
+<icon BUILTIN="clock"/>
+<node CREATED="1602385775356" ID="ID_1603637039" MODIFIED="1629854030631" TEXT="Rajada">
+<icon BUILTIN="group"/>
+<icon BUILTIN="group"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="fema"/>
+<icon BUILTIN="male2"/>
+<icon BUILTIN="male2"/>
+<node CREATED="1603323781115" ID="ID_1155034690" MODIFIED="1629854079265" TEXT="40 Threads"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1621649692377" FOLDED="true" ID="ID_267402569" MODIFIED="1629903551907" TEXT="Escalabilidade">
+<icon BUILTIN="up"/>
+<icon BUILTIN="up"/>
+<icon BUILTIN="up"/>
+<node CREATED="1621649766593" ID="ID_471761560" MODIFIED="1621821036504" TEXT="Avaliar a a capacidade do sistema de expandir"/>
+</node>
+<node CREATED="1621649896888" FOLDED="true" ID="ID_1070235443" MODIFIED="1629903585106" TEXT="Resist&#xea;ncia">
+<icon BUILTIN="hourglass"/>
+<icon BUILTIN="clock"/>
+<icon BUILTIN="hourglass"/>
+<icon BUILTIN="launch"/>
+<node CREATED="1621649903057" ID="ID_1893708617" MODIFIED="1621649919498" TEXT="Avalia comportamento em per&#xed;odos mais longos"/>
+<node CREATED="1621649952657" ID="ID_1908428381" MODIFIED="1621649962362" TEXT="Degrada&#xe7;&#xe3;o da Performance"/>
+<node CREATED="1621649975601" ID="ID_1658142131" MODIFIED="1621649980938" TEXT="Interrup&#xe7;&#xf5;es"/>
+</node>
+<node CREATED="1629254574260" ID="ID_127242138" MODIFIED="1630293346063" TEXT="Falhas Comuns">
+<node CREATED="1621651027657" ID="ID_380576832" MODIFIED="1629855101885" TEXT="Resposta lenta sob todos os n&#xed;veis de carga">
+<node CREATED="1621735991418" ID="ID_1438600267" MODIFIED="1621735995835" TEXT="Implementa&#xe7;&#xe3;o"/>
+<node CREATED="1621735999785" ID="ID_1692317980" MODIFIED="1621736002457" TEXT="Modelagem"/>
+</node>
+<node CREATED="1621650881920" ID="ID_1290792627" MODIFIED="1629805056201" TEXT="Resposta lenta sob n&#xed;veis de carga moderada a pesada">
+<node CREATED="1621735991418" ID="ID_892721647" MODIFIED="1621735995835" TEXT="Implementa&#xe7;&#xe3;o"/>
+<node CREATED="1621735999785" ID="ID_1527669410" MODIFIED="1621736002457" TEXT="Modelagem"/>
+<node CREATED="1621736099626" ID="ID_1812582946" MODIFIED="1621736107290" TEXT="Recursos de Hardware"/>
+</node>
+<node CREATED="1621650898792" ID="ID_1104228672" MODIFIED="1629805672541" TEXT="Resposta degradada ao longo do tempo">
+<node CREATED="1621736006714" ID="ID_1993931608" MODIFIED="1621736013778" TEXT="Vazamentos de mem&#xf3;ria"/>
+<node CREATED="1621736027369" ID="ID_988011358" MODIFIED="1621736050642" TEXT="Fragmenta&#xe7;&#xe3;o de disco"/>
+</node>
+<node CREATED="1621650909841" ID="ID_576736471" MODIFIED="1629805619791" TEXT="Tratamento inadequado de erros sob carga pesada ou acima do limite">
+<node CREATED="1621736175186" ID="ID_1453920673" MODIFIED="1621736185937" TEXT="Submendicionamento de configura&#xe7;&#xf5;es"/>
+<node CREATED="1621736190873" ID="ID_244450856" MODIFIED="1621736194018" TEXT="Timeout"/>
+</node>
+</node>
+</node>
+<node CREATED="1621129124418" FOLDED="true" ID="ID_800235292" MODIFIED="1630293368084" POSITION="right" TEXT="Refer&#xea;ncias">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="list"/>
+<node CREATED="1621820600315" ID="ID_1348509243" MODIFIED="1629741013747" TEXT="Performance">
+<node CREATED="1621650933280" ID="ID_1824546278" MODIFIED="1621650935457" TEXT="https://bstqb.org.br/b9/doc/syllabus_ctfl_pt_2018br.pd"/>
+<node CREATED="1629680016079" ID="ID_1813718576" MODIFIED="1629680018003" TEXT="https://www.testar.me/teste-de-performance"/>
+<node CREATED="1629856850690" ID="ID_627793037" MODIFIED="1629856852290" TEXT="https://www.youtube.com/watch?v=olVJovr1RmY"/>
+<node CREATED="1629857345290" ID="ID_764057226" MODIFIED="1629857347818" TEXT="https://www.perfmatrix.com/performance-testing-tutorial/"/>
+<node CREATED="1629911522156" ID="ID_451520322" MODIFIED="1629911528013" TEXT="Ferramentas de Teste de Performance">
+<node CREATED="1629911529538" ID="ID_317536131" MODIFIED="1629911530875" TEXT="https://k6.io/blog/comparing-best-open-source-load-testing-tools/"/>
+</node>
+</node>
+<node CREATED="1629677929730" ID="ID_511459890" MODIFIED="1629856512054" TEXT="JMeter">
+<node CREATED="1629741018457" ID="ID_594614743" MODIFIED="1629741021428" TEXT="M&#xe9;tricas">
+<node CREATED="1629741023553" ID="ID_932855896" MODIFIED="1629741025107" TEXT="https://octoperf.com/blog/2017/10/19/how-to-analyze-jmeter-results/#pre-requisites"/>
+</node>
+<node CREATED="1629856513466" ID="ID_263807310" MODIFIED="1629856823828" TEXT="Informa&#xe7;&#xf5;es da Ferramenta">
+<node CREATED="1629856452258" ID="ID_1568383257" MODIFIED="1629856453812" TEXT="https://jmeter.apache.org/"/>
+<node CREATED="1629856586651" ID="ID_1562741626" MODIFIED="1629856589099" TEXT="https://www.youtube.com/watch?v=1Ww5mRYmcL0"/>
+<node CREATED="1629856825618" ID="ID_1898107974" MODIFIED="1629856827426" TEXT="https://www.youtube.com/watch?v=j19OFRb8lLI"/>
+</node>
+<node CREATED="1630291580446" ID="ID_15933410" MODIFIED="1630291590191" TEXT="Download Plugins">
+<node CREATED="1630291684913" ID="ID_824217966" MODIFIED="1630291690816" TEXT="Threads Group">
+<node CREATED="1630291693251" ID="ID_117963688" MODIFIED="1630291694862" TEXT="https://jmeter-plugins.org/?search=jpgc-casutg"/>
+</node>
+<node CREATED="1630291753394" ID="ID_1088846187" MODIFIED="1630291755735" TEXT="Listener">
+<node CREATED="1630291758127" ID="ID_1444803967" MODIFIED="1630291759416" TEXT="https://jmeter-plugins.org/wiki/GraphsGeneratorListener/"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>
