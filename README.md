@@ -42,7 +42,15 @@ Link do youtube: https://www.youtube.com/watch?v=IQJj5ZYIVos
 
 Link do youtube: https://www.youtube.com/watch?v=olVJovr1RmY
 
+### The Developers Conference - TDC
 
+#### Como Estruturar os Tipos de Teste de Performance no JMeter ? - Trilha Testes - TDC Transformation
 
+JMeter é uma das ferramentas de testes de performance mais disseminadas e sólidas no mercado. Você até sabe algo da ferramenta mas não tem clareza de como aplicar os tipos de teste de performance dentro dela? Têm dúvidas de como estruturar um teste de carga, volume, stress, pico ou resistência na ferramenta?
 
+Então essa palestra é para você! A ideia é entendermos na prática como construir scripts no JMeter para os tipos de testes de performance mais comuns.
+
+https://thedevconf.com/tdc/2021/transformation/trilha-testes
+
+\TrilhaTestes_TDCTransformation2021
 
