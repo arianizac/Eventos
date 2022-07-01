@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1656084167481" ID="ID_1053572327" MODIFIED="1656535346711" TEXT="O que eu preciso para come&#xe7;ar a trabalhar com testes de performance?">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1656293014790" ID="ID_1785595292" MODIFIED="1656544608536" POSITION="right" TEXT="Aprender">
+<node CREATED="1656293014790" FOLDED="true" ID="ID_1785595292" MODIFIED="1656697815281" POSITION="right" TEXT="Aprender">
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-1"/>
 <node CREATED="1656293136448" ID="ID_1079732991" MODIFIED="1656696207384" TEXT="Conceitos de Performance">
@@ -78,7 +78,7 @@
 </node>
 <node CREATED="1642474183636" ID="ID_1399743398" MODIFIED="1656540610657" TEXT="Testes de Performance">
 <font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1621906065652" ID="ID_1740124331" MODIFIED="1656696853265" TEXT="O que &#xe9;  Testes de Performance?">
+<node CREATED="1621906065652" ID="ID_1740124331" MODIFIED="1656697615524" TEXT="O que &#xe9;  Testes de Performance?">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1593354787210" ID="ID_1651526923" MODIFIED="1656455378165" TEXT="Teste N&#xe3;o Funcional">
 <font NAME="SansSerif" SIZE="18"/>
@@ -201,7 +201,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1621905935732" ID="ID_855849927" MODIFIED="1656696861334" TEXT="Quais s&#xe3;o os Tipos de Testes de Performance?">
+<node CREATED="1621905935732" ID="ID_855849927" MODIFIED="1656697612683" TEXT="Quais s&#xe3;o os Tipos de Testes de Performance?">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1643758496752" ID="ID_1961720951" MODIFIED="1656455451666" TEXT="Teste de Performance">
 <font NAME="SansSerif" SIZE="18"/>
@@ -497,7 +497,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1599056458180" ID="ID_1936665904" MODIFIED="1656535277493" TEXT="Ferramentas">
+<node CREATED="1599056458180" ID="ID_1936665904" MODIFIED="1656697595184" TEXT="Ferramentas">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1599056463659" ID="ID_1777133712" MODIFIED="1656696867541" TEXT="Execu&#xe7;&#xe3;o">
 <font NAME="SansSerif" SIZE="18"/>
@@ -609,7 +609,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1656293022105" ID="ID_1729606232" MODIFIED="1656696873297" POSITION="right" TEXT="Desenvolver">
+<node CREATED="1656293022105" FOLDED="true" ID="ID_1729606232" MODIFIED="1656697916789" POSITION="right" TEXT="Desenvolver">
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-2"/>
 <node CREATED="1656293162183" ID="ID_1240343021" MODIFIED="1656453740210" TEXT="Skills">
@@ -673,7 +673,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1656293031065" ID="ID_1694350750" MODIFIED="1656696875449" POSITION="right" TEXT="Enteder">
+<node CREATED="1656293031065" FOLDED="true" ID="ID_1694350750" MODIFIED="1656697915476" POSITION="right" TEXT="Enteder">
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="full-3"/>
 <node CREATED="1652924316254" ID="ID_1698880150" MODIFIED="1656696877880" TEXT="Por que eu deveria testar a performance?">
@@ -908,7 +908,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1610452974833" ID="ID_1281790175" MODIFIED="1656696880196" POSITION="right" TEXT="Maiores Desafios">
+<node CREATED="1610452974833" ID="ID_1281790175" MODIFIED="1656697920366" POSITION="right" TEXT="Maiores Desafios">
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1656339676173" ID="ID_1343814624" MODIFIED="1656696882613" TEXT="Cria&#xe7;&#xe3;o/Defini&#xe7;&#xe3;o Ambiente de Testes de Performance">
@@ -981,8 +981,8 @@
 <font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
-<node CREATED="1610235908526" ID="ID_998918780" MODIFIED="1656454937539" TEXT="Exemplo">
-<font NAME="SansSerif" SIZE="16"/>
+<node CREATED="1610235908526" ID="ID_998918780" MODIFIED="1656697929534" TEXT="Exemplo">
+<font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1610235760001" ID="ID_415315870" MODIFIED="1656544058523" TEXT="Ruim">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1621907882083" ID="ID_1626977979" MODIFIED="1656517148906" TEXT="Acima de 3s">
@@ -1044,7 +1044,7 @@
 <icon BUILTIN="freemind_butterfly"/>
 </node>
 </node>
-<node CREATED="1642474367660" ID="ID_534971927" MODIFIED="1656544282025" POSITION="right" TEXT="Refer&#xea;ncias">
+<node CREATED="1642474367660" ID="ID_534971927" MODIFIED="1656697932197" POSITION="right" TEXT="Refer&#xea;ncias">
 <font NAME="SansSerif" SIZE="18"/>
 <icon BUILTIN="attach"/>
 <node CREATED="1610234768825" ID="ID_1845216182" MODIFIED="1656455853732" TEXT="Requisitos N&#xe3;o Funcionais">
