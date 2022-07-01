@@ -54,3 +54,21 @@ https://thedevconf.com/tdc/2021/transformation/trilha-testes
 
 \TrilhaTestes_TDCTransformation2021
 
+
+##2022
+
+### The Developers Conference - TDC
+
+### CTC Recrutalks
+
+####  O que eu preciso para começar a trabalhar com testes de performance?
+
+Performance é um tema que apesar de muito falado, sabemos que não temos tantos profissionais especialista com foco totalmente na área.
+Se você se interessa pelo "mundo da performance" (eu já adianto que amoo s2) esse webinar é para você.
+
+Vamos falar um pouco sobre: O que preciso saber? Quais skills desenvolver? E principalmente o que faz um QA/engenheiro ou a nomenclatura que queira dar para uma pessoa que trabalha com testes de performance.
+
+Bora? 
+
+/CTCRecrutalks_ComoComecarTestePerformance
+
