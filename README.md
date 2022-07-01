@@ -61,7 +61,7 @@ https://thedevconf.com/tdc/2021/transformation/trilha-testes
 
 ### CTC Recrutalks
 
-####  O que eu preciso para começar a trabalhar com testes de performance?
+####  O que eu preciso para começar a trabalhar com testes de performance? - Realizado em 29/06
 
 Performance é um tema que apesar de muito falado, sabemos que não temos tantos profissionais especialista com foco totalmente na área.
 Se você se interessa pelo "mundo da performance" (eu já adianto que amoo s2) esse webinar é para você.
@@ -70,5 +70,7 @@ Vamos falar um pouco sobre: O que preciso saber? Quais skills desenvolver? E pri
 
 Bora? 
 
-/CTCRecrutalks_ComoComecarTestePerformance
+Link da gravação no Youtube: https://www.youtube.com/watch?v=lOoZGMZLRZ0
+
+/CTCRecrutalks_ComoComecarTestePerformance2022
 
